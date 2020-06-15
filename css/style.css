@@ -1,0 +1,371 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+.row{
+
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+
+
+
+body{
+
+	font-family: tahoma;
+}
+
+
+
+.hero{
+
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+header{
+
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/head.jpg); 
+	height: 100vh;
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+
+h1{
+
+	color: white;
+
+}
+
+
+
+.main-nav{
+
+	list-style: none;
+	float: right;
+	margin-top: 60px;
+}
+
+
+
+.main-nav li{
+
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+
+.main-nav li a{
+
+	color: white;
+	text-decoration:none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+
+
+.main-nav li a:hover{
+
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+
+
+.logo img{
+
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+
+
+.btn{
+
+	border: 1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+
+}
+
+
+
+.button-awesome{
+
+	margin-top: 40px;
+
+}
+
+
+
+.btn-half{
+	background-color: #e67e22;
+	color: white;
+
+}
+
+
+
+.btn-full:hover{
+
+	background-color: #e67e22;
+	color: white;
+	transition: all 0.3s ease-in;
+}
+
+
+
+h3:after{
+
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display:block;
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+
+.features h3{
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+
+
+}
+
+
+
+
+.features h4{
+
+	margin-left: 50px;
+}
+
+
+
+.pizza-pics{
+
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+
+}
+
+
+
+.pizza-pics img{
+
+	width: 100%;
+	height: auto;
+	transform: scale(1.10);
+	transition: transform 0.5s;
+
+}
+
+
+
+.pizza-pics img:hover{
+
+	transform: scale(1.05);
+}
+
+
+
+.clearfix{
+
+	zoom:1;
+}
+
+
+
+.clearfix:after{
+
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+
+
+
+.order h3{
+
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+
+
+.formular{
+
+	margin-left: 40%;
+	width: 300px;
+	height: 500px;
+
+
+}
+
+
+
+.ingredients input[type=checkbox] + label{
+
+
+	
+	margin: 0.2em;
+	cursor: pointer;
+	width: 104px;
+	
+}
+
+
+
+
+.ingredients input[type=checkbox]{
+
+	display: none;
+
+}
+
+
+.ingredients input[type=checkbox] + label:before{
+
+	content: "\2714";
+	border: 0.1em solid #000;
+	border-radius: 0.2em;
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	padding-left: 0.2em;
+	padding-bottom: 0.1em;
+	margin-right: 0.1em;
+	vertical-align: bottom;
+	color: transparent;
+	transition: 0.3s;
+
+}
+
+
+
+
+.ingredients input[type=checkbox] + label:active:before{
+
+	transform: scale(0);
+}
+
+
+
+.ingredients input[type=checkbox]:checked + label:before{
+
+	background-color: #e67e22;
+	color: #fff;
+	border-color: #e67e22; /*MediuSeaGreen color*/
+
+
+}
+
+.ingredients img{
+
+	border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+.container input[type=checkbox] + label{
+
+
+	
+	margin: 0.2em;
+	cursor: pointer;
+	margin-top: 20px;
+	
+	
+}
+
+
+
+
+.container input[type=checkbox]{
+
+	display: none;
+
+}
+
+
+.container input[type=checkbox] + label:before{
+
+	content: "\2714";
+	border: 0.1em solid #000;
+	border-radius: 0.2em;
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	padding-left: 0.2em;
+	padding-bottom: 0.1em;
+	margin-right: 0.1em;
+	vertical-align: bottom;
+	color: transparent;
+	transition: 0.3s;
+
+}
+
+
+
+
+.container input[type=checkbox] + label:active:before{
+
+	transform: scale(0);
+}
+
+
+
+.container input[type=checkbox]:checked + label:before{
+
+	background-color: #e67e22;
+	color: #fff;
+	border-color: #e67e22; /*MediuSeaGreen color*/
+
+
+}
+
+
+
+
+
+
+
+

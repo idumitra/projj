@@ -1,0 +1,21 @@
+.formulaire
+{
+ 
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+.text
+{
+   margin-top: 50px;
+   padding-top: 10px;
+}
+
+
+.checked 
+{
+  color: orange;
+}

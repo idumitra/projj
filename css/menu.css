@@ -1,0 +1,20 @@
+.menu .button
+{
+  background-color: #25201B;
+  border: 1px solid black;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 170px;
+
+}
+
+.menu .button:not(:border) {
+  border-bottom: none; 
+}
+
+.menu .button:hover {
+  background-color: #444240;
